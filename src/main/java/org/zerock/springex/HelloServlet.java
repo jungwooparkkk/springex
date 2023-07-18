@@ -25,10 +25,6 @@ public class HelloServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
-
-        // commit
-        // commit22
-        // commit33
     }
 
     public void destroy() {
